@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 101px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.start-btn {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--darkText);
+    text-align: center;
+}
+
