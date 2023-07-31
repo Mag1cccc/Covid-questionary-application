@@ -60,15 +60,15 @@ form input {
     margin-top: 8px;
 }
 
-#name,
+/* #name,
 #surname {
     margin-bottom: 47px;
-}
+} */
 
 form hr {
     width: 237px;
     border: 0.8px solid var(--dark);
-    margin-top: 111px;
+    margin-top: 40px;
 }
 
 .info-img {
@@ -90,5 +90,18 @@ form hr {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.error-box {
+    width: fit-content;
+    height: 20px;
+    margin-bottom: 27px;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.31px;
+    color: var(--error);
 }

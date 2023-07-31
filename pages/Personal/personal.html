@@ -21,10 +21,19 @@
             <form>
                 <label for="name"> სახელი* </label>
                 <input type="text" id="name" name="name" placeholder="სახელი">
+                <div class="error-box">
+                    <p class="error" id="name-error"></p>
+                </div>
                 <label for="surname"> გვარი* </label>
                 <input type="text" id="surname" name="surname" placeholder="გვარი">
+                <div class="error-box">
+                    <p class="error"  id="surname-error"></p>
+                </div>
                 <label for="email"> მეილი* </label>
                 <input type="email" id="email" name="email" placeholder="ელ.ფოსტა">
+                <div class="error-box">
+                    <p class="error"  id="email-error"></p>
+                </div>
                 <hr>
                 <p class="warning"> *-ით მონიშნული ველების შევსება <br> სავალდებულოა </p>
             </form>

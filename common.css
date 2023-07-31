@@ -16,6 +16,7 @@
     --darkText: #232323;
     --dark: #000000;
     --warning: #626262;
+    --error: #F15524;
 }
 
 body {
