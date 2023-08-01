@@ -97,12 +97,41 @@ header hr {
     font-weight: 700;
     line-height: 27px;
     margin-bottom: 30px;
+    display: none;
+}
+
+.test-amount-title.active {
+    display: block;
 }
 
 .inputs {
-    display: block;
     width: 380px;
     height: 36px;
     margin: 20px 0 0 36px;
+    padding-left: 14px;
+    display: none;
+}
+
+.inputs.active {
+    display: block;
+}
+
+.covid-date {
+    margin-top: 36px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.covid-date.active {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
 }
 
